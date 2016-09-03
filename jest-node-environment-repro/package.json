@@ -1,0 +1,20 @@
+{
+  "name": "jest-node-environment-repro",
+  "version": "1.0.0",
+  "description": "Jest bug repro",
+  "repository": "fson/sandbox",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "rxjs": "^5.0.0-beta.11"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^15.1.1"
+  }
+}
